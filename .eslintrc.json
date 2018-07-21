@@ -1,0 +1,7 @@
+{
+    "extends": "standard",
+    "globals": {
+        "requestAnimationFrame": true,
+        "cancelAnimationFrame": true
+    }
+}

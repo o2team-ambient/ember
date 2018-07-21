@@ -17,8 +17,8 @@ let controlInit = () => {
   // 非必要配置字段（仅用于展示，如背景颜色、启动/暂停）
   class OtherConfig {
     constructor () {
-      this.message = '挂件名'
-      this.backgroundColor = '#bddaf7'
+      this.message = '灰烬'
+      this.backgroundColor = '#000000'
       this.play = () => {
         if (!window[O2_AMBIENT_MAIN] || !window[O2_AMBIENT_MAIN].toggle || typeof window[O2_AMBIENT_MAIN].toggle !== 'function') return
         window[O2_AMBIENT_MAIN].toggle()
@@ -32,7 +32,7 @@ let controlInit = () => {
       super()
       this.otherConfig = new OtherConfig()
       this.initBaseGUI()
-      this.initTextureGUI()
+      // this.initTextureGUI()
       this.isShowController && !this.isAmbientPlat && this.setBackgroundColor(this.otherConfig.backgroundColor)
     }
 
@@ -42,7 +42,7 @@ let controlInit = () => {
       const otherConfig = this.otherConfig
       const gui = new dat.GUI()
       gui.addCallbackFunc(this.resetCanvas.bind(this))
-      
+
       gui.add(otherConfig, 'message').name('配置面板')
       gui.add(otherConfig, 'play').name('播放 / 暂停')
       config.particleNumber && gui.add(config, 'particleNumber', 3, 100, 1).name('粒子数量').onFinishChange(val => {
