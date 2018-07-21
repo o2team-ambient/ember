@@ -29,7 +29,6 @@ class Ember extends AmbientBase {
 
   async create () {
     this.draw = this.drawDefault
-    this.maxRadius = 5
     if (this.canvas) {
       this.canvas.style.filter = `blur(${this.blur}px)`
     }
@@ -43,14 +42,12 @@ class Ember extends AmbientBase {
     this.parent = document.querySelector('.o2team_ambient_main')
     this.FPS = 30
     this.particleNumber = window[O2_AMBIENT_CONFIG].particleNumber
-    this.maxRadius = window[O2_AMBIENT_CONFIG].maxRadius
     this.blur = 2
     this.UPPER_LIMIT = 10
     this.LOWER_LIMIT = 1
     this.UPPER_SIZE = 10
     this.LOWER_SIZE = 4
     this.frameCount = 0
-    this.isFirst = true
     this.className = O2_AMBIENT_CLASSNAME
     this.isInited && this.create()
   }
@@ -121,8 +118,8 @@ class Ember extends AmbientBase {
   drawDefault () {
     const ctx = this.ctx
     this.particles.forEach((particle, index) => {
-      ctx.save()
       const size = particle.size
+      ctx.save()
       ctx.translate(particle.x + (size / 2), particle.y + (size / 2))
       ctx.rotate(particle.r)
       ctx.fillStyle = particle.color
