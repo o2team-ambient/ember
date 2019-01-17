@@ -2,6 +2,7 @@
   "author": "liujianchao1",
   "demoUrl": "http://jdc.jd.com/demo/ambient/ember/",
   "title": "ember",
+  "ambName": "灰烬",
   "github": "https://github.com/o2team-ambient/ember",
   "demoSnippet": "<link href=\"//storage.jd.com/ambient/styles-ember.css?t=1547714591000\" rel=\"stylesheet\"></link><!-- S 主体内容 -->\n  <div class=\"o2team_ambient_main\">\n  </div>\n  <!-- E 主体内容 --><script src=\"//storage.jd.com/ambient/bundle-ember.js?t=1547714591000\"></script>",
   "controlUrl": "//storage.jd.com/ambient/control-ember.js?t=1547714591000",
