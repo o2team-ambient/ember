@@ -1,7 +1,7 @@
 {
   "author": "liujianchao1",
-  "demoUrl": "http://jdc.jd.com/demo/ambient/ember/",
-  "miniDemoUrl": "http://jdc.jd.com/demo/ambient/ember/index_demo.html",
+  "demoUrl": "//o2team-ambient.github.io/ember/dist/",
+  "miniDemoUrl": "//o2team-ambient.github.io/ember/dist/index_demo.html",
   "title": "ember",
   "ambName": "灰烬",
   "github": "https://github.com/o2team-ambient/ember",
