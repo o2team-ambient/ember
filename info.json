@@ -7,5 +7,7 @@
   "github": "https://github.com/o2team-ambient/ember",
   "demoSnippet": "<link href=\"//storage.jd.com/ambient/styles-ember.css?t=1552529874000\" rel=\"stylesheet\"></link><!-- S 主体内容 -->\n  <div class=\"o2team_ambient_main\">\n  </div>\n  <!-- E 主体内容 --><script src=\"//storage.jd.com/ambient/bundle-ember.js?t=1552529874000\"></script>",
   "controlUrl": "//storage.jd.com/ambient/control-ember.js?t=1552529874000",
-  "configUrl": "//storage.jd.com/ambient/config-ember.js?t=1552529874000"
+  "configUrl": "//storage.jd.com/ambient/config-ember.js?t=1552529874000",
+  "placeholderImg": "//storage.jd.com/ambient/ember_placeholder.png?t=1553781289000",
+  "gifImg": "//storage.jd.com/ambient/ember_motion.gif?t=1553781289000"
 }
