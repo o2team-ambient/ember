@@ -5,9 +5,9 @@
   "title": "ember",
   "ambName": "灰烬",
   "github": "https://github.com/o2team-ambient/ember",
-  "demoSnippet": "<link href=\"//storage.jd.com/ambient/styles-ember.css?t=1566461824000\" rel=\"stylesheet\"></link><!-- S 主体内容 -->\n  <div class=\"o2team_ambient_main\">\n  </div>\n  <!-- E 主体内容 --><script src=\"//storage.jd.com/ambient/bundle-ember.js?t=1566461824000\"></script>",
-  "controlUrl": "//storage.jd.com/ambient/control-ember.js?t=1566461824000",
-  "configUrl": "//storage.jd.com/ambient/config-ember.js?t=1566461824000",
+  "demoSnippet": "<link href=\"//storage.jd.com/ambient/styles-ember.css?t=1567589217000\" rel=\"stylesheet\"></link><!-- S 主体内容 -->\n  <div class=\"o2team_ambient_main\">\n  </div>\n  <!-- E 主体内容 --><script src=\"//storage.jd.com/ambient/bundle-ember.js?t=1567589217000\"></script>",
+  "controlUrl": "//storage.jd.com/ambient/control-ember.js?t=1567589217000",
+  "configUrl": "//storage.jd.com/ambient/config-ember.js?t=1567589217000",
   "placeholderImg": "//storage.jd.com/ambient/ember_placeholder.png?t=1554279075000",
   "spriteImg": "//storage.jd.com/ambient/ember_sprite.png?t=1554279075000"
 }
